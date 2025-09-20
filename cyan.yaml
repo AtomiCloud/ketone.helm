@@ -1,0 +1,11 @@
+username: atomi
+name: Helm
+description: AtomiCloud's helm template
+project: https://github.com/AtomiCloud/ketone.helm
+source: https://github.com/AtomiCloud/ketone.helm.git
+email: admin@atomi.cloud
+tags: ['atomi']
+readme: cyan/README.MD
+processors: ['cyan/default']
+plugins: []
+templates: []

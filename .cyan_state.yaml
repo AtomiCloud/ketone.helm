@@ -1,0 +1,138 @@
+atomi/nix-init:
+  active: true
+  history:
+    - version: 13
+      time: 2025-09-20T04:17:58.544143Z
+      answers:
+        init-type:
+          type: String
+          value: CyanPrint Bun
+      deterministic_states: {}
+cyan/new:
+  active: true
+  history:
+    - version: 12
+      time: 2025-09-20T04:16:50.929573Z
+      answers:
+        cyan/new/processor/0:
+          type: String
+          value: cyan/default
+        cyan/new/username:
+          type: String
+          value: atomi
+        cyan/new/project:
+          type: String
+          value: https://github.com/AtomiCloud/ketone.helm
+        cyan/new/source:
+          type: String
+          value: https://github.com/AtomiCloud/ketone.helm.git
+        cyan/new/name:
+          type: String
+          value: Helm
+        cyan/new/more-processors/1:
+          type: String
+          value: no
+        cyan/new/description:
+          type: String
+          value: AtomiCloud's helm template
+        cyan/new/more-processors/0:
+          type: String
+          value: yes
+        cyan/new/email:
+          type: String
+          value: admin@atomi.cloud
+        cyan/new/more-plugins/0:
+          type: String
+          value: no
+        cyan/new/more-tags/1:
+          type: String
+          value: no
+        cyan/new/language:
+          type: String
+          value: Typescript
+        cyan/new/tag/0:
+          type: String
+          value: atomi
+        cyan/new/create:
+          type: String
+          value: Template
+        cyan/new/more-tags/0:
+          type: String
+          value: yes
+      deterministic_states: {}
+atomi/cyan:
+  active: true
+  history:
+    - version: 1
+      time: 2025-09-20T05:50:29.900869Z
+      answers:
+        atomi-cyan/template-description:
+          type: String
+          value: AtomiCloud's helm template
+        atomi-cyan/platform:
+          type: String
+          value: ketone
+        atomi-cyan/template-name:
+          type: String
+          value: Helm
+        atomi-cyan/service:
+          type: String
+          value: helm
+      deterministic_states: {}
+    - version: 2
+      time: 2025-09-20T06:00:25.641547Z
+      answers:
+        atomi-cyan/service:
+          type: String
+          value: helm
+        atomi-cyan/template-name:
+          type: String
+          value: Helm
+        atomi-cyan/platform:
+          type: String
+          value: ketone
+        atomi-cyan/template-description:
+          type: String
+          value: AtomiCloud's helm template
+      deterministic_states: {}
+    - version: 3
+      time: 2025-09-20T06:06:27.592642Z
+      answers:
+        atomi-cyan/service:
+          type: String
+          value: helm
+        atomi-cyan/template-name:
+          type: String
+          value: Helm
+        atomi-cyan/template-description:
+          type: String
+          value: AtomiCloud's helm template
+        atomi-cyan/platform:
+          type: String
+          value: ketone
+      deterministic_states: {}
+atomi/workspace:
+  active: true
+  history:
+    - version: 20
+      time: 2025-09-20T04:18:17.086559Z
+      answers:
+        atomi/workspace/enable-secret:
+          type: Bool
+          value: false
+        atomi/workspace/enable-helm:
+          type: Bool
+          value: false
+        atomi/workspace/service:
+          type: String
+          value: helm
+        atomi/workspace/platform:
+          type: String
+          value: ketone
+        atomi/workspace/runtime:
+          type: String
+          value: Bun
+        atomi/workspace/enable-docker:
+          type: Bool
+          value: true
+      deterministic_states: {}
