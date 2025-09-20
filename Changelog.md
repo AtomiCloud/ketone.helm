@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.1...v1.2.2) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* taskfile and gitignore ([6c137da](https://github.com/AtomiCloud/ketone.helm/commit/6c137da9ec1ab4bd881d1050f7cb7474aee0c53d))
+
 ## [1.2.1](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.0...v1.2.1) (2025-09-20)
 
 
