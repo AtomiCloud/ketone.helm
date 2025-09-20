@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.4...v1.2.5) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* missing skopeo and deployment flags ([36bf4a1](https://github.com/AtomiCloud/ketone.helm/commit/36bf4a14ca74c7c920a903439def083bbdbc6ce2))
+
 ## [1.2.4](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.3...v1.2.4) (2025-09-20)
 
 
