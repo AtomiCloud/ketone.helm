@@ -1,3 +1,16 @@
+## [1.1.0](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.3...v1.1.0) (2025-09-20)
+
+
+### ✨ Features ✨
+
+* initial features ([098e3b1](https://github.com/AtomiCloud/ketone.helm/commit/098e3b108a454ac055382ce3c548737defb7c68d))
+* upgrade upstream ([5dd0bfe](https://github.com/AtomiCloud/ketone.helm/commit/5dd0bfed381e7a34f06e1a405c075878c0bb1066))
+
+
+### 🔼 Dependency Upstreams 🔼
+
+* upstream ([f7715f4](https://github.com/AtomiCloud/ketone.helm/commit/f7715f4fc643d11a17f28b7e882e2520eea49bac))
+
 ## [1.0.3](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.2...v1.0.3) (2025-09-20)
 
 
