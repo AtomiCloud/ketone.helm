@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.3...v1.2.4) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* missing config for deployment and security context ([bb0ede9](https://github.com/AtomiCloud/ketone.helm/commit/bb0ede9167916f699ce917960d20b572be8ce53c))
+
 ## [1.2.3](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.2...v1.2.3) (2025-09-20)
 
 
