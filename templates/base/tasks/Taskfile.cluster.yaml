@@ -1,12 +1,15 @@
 version: '3'
 
+vars:
+  VALUES_FILE: '{{if .LANDSCAPE}}{{if .CLUSTER}}--values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml{{else}}--values values.{{.LANDSCAPE}}.yaml{{end}}{{end}}'
+
 tasks:
   debug:
     desc: Debug the helm chart
     dir: chart
     cmds:
       - helm dependency update
-      - helm template $RELEASE_NAME . --debug --values values.yaml --values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml {{.CLI_ARGS}}
+      - helm template $RELEASE_NAME . --debug --values values.yaml {{.VALUES_FILE}} {{.CLI_ARGS}}
 
   template:
     desc: Render the helm chart
@@ -14,7 +17,7 @@ tasks:
     cmds:
       - helm dependency update
       - >-
-        helm template $RELEASE_NAME . --values values.yaml --values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml 
+        helm template $RELEASE_NAME . --values values.yaml {{.VALUES_FILE}}
         {{.CLI_ARGS}}
 
   install:
@@ -22,7 +25,7 @@ tasks:
     dir: chart
     cmds:
       - helm dependency update
-      - helm upgrade --install $RELEASE_NAME . --values values.yaml --values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml {{.CLI_ARGS}}
+      - helm upgrade --install $RELEASE_NAME . --values values.yaml {{.VALUES_FILE}} {{.CLI_ARGS}}
 
   remove:
     desc: Removes an installed release
