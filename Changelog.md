@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.2...v1.0.3) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* lowercase for name ([da18c8b](https://github.com/AtomiCloud/ketone.helm/commit/da18c8b2cf61d2783cf548ef4d5d150cd32724d5))
+
 ## [1.0.2](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.1...v1.0.2) (2025-09-20)
 
 
