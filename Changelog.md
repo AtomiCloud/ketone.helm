@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/ketone.helm/compare/v1.1.0...v1.2.0) (2025-09-20)
+
+
+### ✨ Features ✨
+
+* include default deployments ([d0ec977](https://github.com/AtomiCloud/ketone.helm/commit/d0ec977a8fb9b52b26d28676d696bba4a6733b8f))
+
 ## [1.1.0](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.3...v1.1.0) (2025-09-20)
 
 
