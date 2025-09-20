@@ -16,7 +16,7 @@ StartTemplateWithLambda(async (i, d) => {
     },
   ];
 
-  const deployment = await i.confirm('Enable deployment (y/n)', 'atomi/helm/deployment');
+  const deployment = await i.confirm('Add deployment scaffolds (y/n)', 'atomi/helm/deployment');
 
   if (deployment) {
     files.push({
@@ -32,14 +32,7 @@ StartTemplateWithLambda(async (i, d) => {
     processors: [
       {
         name: 'cyan/default',
-        files: [
-          {
-            root: 'templates/base',
-            glob: '**/*.*',
-            type: GlobType.Template,
-            exclude: [],
-          },
-        ],
+        files,
         config: {
           vars,
           parser: {
