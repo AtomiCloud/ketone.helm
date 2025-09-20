@@ -10,6 +10,7 @@ pre-commit-lib.run {
       package = formatter;
       excludes = [
         ".*(Changelog|README|CommitConventions).+(MD|md)"
+        ".*chart.*"
       ];
     };
 

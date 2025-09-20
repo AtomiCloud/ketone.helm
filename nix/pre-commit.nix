@@ -10,6 +10,7 @@ pre-commit-lib.run {
       package = formatter;
       excludes = [
         ".*node_modules.*"
+        ".*chart.*"
         ".*(Changelog|README|CommitConventions).+(MD|md)"
       ];
     };
