@@ -1,0 +1,7 @@
+apiVersion: v2
+name: let___platform___-let___service___
+description: let___desc___
+
+type: application
+version: 0.1.0
+appVersion: '0.1.0'

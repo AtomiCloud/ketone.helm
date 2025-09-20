@@ -1,0 +1,44 @@
+atomi/workspace:
+  active: true
+  history:
+    - version: 21
+      time: 2025-09-20T08:13:01.248376Z
+      answers:
+        atomi/workspace/runtime:
+          type: String
+          value: None
+        atomi/workspace/service:
+          type: String
+          value: let___service___
+        atomi/workspace/enable-docker:
+          type: Bool
+          value: false
+        atomi/workspace/platform:
+          type: String
+          value: let___platform___
+        atomi/workspace/enable-secret:
+          type: Bool
+          value: false
+        atomi/workspace/enable-helm:
+          type: Bool
+          value: true
+      deterministic_states: {}
+atomi/nix-init:
+  active: true
+  history:
+    - version: 14
+      time: 2025-09-20T08:11:55.168525Z
+      answers:
+        Description of this Project:
+          type: String
+          value: let___platform___ let___service___ Helm Chart
+        pre-commit:
+          type: Bool
+          value: true
+        init-type:
+          type: String
+          value: Standard
+        standard-binary:
+          type: Bool
+          value: true
+      deterministic_states: {}
