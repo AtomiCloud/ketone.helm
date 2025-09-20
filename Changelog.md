@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.1...v1.0.2) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* missing CYAN_TOKEN ([11fdfe9](https://github.com/AtomiCloud/ketone.helm/commit/11fdfe947ff99851c6b585ed38196d1465e06bee))
+
 ## [1.0.1](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.0...v1.0.1) (2025-09-20)
 
 
