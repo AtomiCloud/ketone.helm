@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.0...v1.2.1) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* missing layer and module ([ba07e2e](https://github.com/AtomiCloud/ketone.helm/commit/ba07e2e81b49a03e03ac310a662495a571e4c762))
+
 ## [1.2.0](https://github.com/AtomiCloud/ketone.helm/compare/v1.1.0...v1.2.0) (2025-09-20)
 
 
