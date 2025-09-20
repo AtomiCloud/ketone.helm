@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/AtomiCloud/ketone.helm/compare/v1.0.0...v1.0.1) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* upstream ([ec16d07](https://github.com/AtomiCloud/ketone.helm/commit/ec16d07a51f4b005b2e00c12bc3a446daaa4eff3))
+
 ## 1.0.0 (2025-09-20)
 
 
