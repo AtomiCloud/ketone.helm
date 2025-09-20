@@ -1,5 +1,5 @@
 username: atomi
-name: Helm
+name: helm
 description: AtomiCloud's helm template
 project: https://github.com/AtomiCloud/ketone.helm
 source: https://github.com/AtomiCloud/ketone.helm.git
