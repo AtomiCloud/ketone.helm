@@ -19,7 +19,6 @@ jobs:
     with:
       atomi_platform: ketone
       atomi_service: helm
-
       dockerfile: ./cyan/template.Dockerfile
       context: ./cyan
       image_name: template
@@ -30,7 +29,6 @@ jobs:
     with:
       atomi_platform: ketone
       atomi_service: helm
-
       dockerfile: ./cyan/blob.Dockerfile
       image_name: blob
   #
