@@ -18,6 +18,8 @@ StartTemplateWithLambda(async (i, d) => {
 
   const deployment = await i.confirm('Add deployment scaffolds (y/n)', 'atomi/helm/deployment');
 
+  const security = await i.confirm('Enable security context (y/n)', 'atomi/helm/security');
+
   if (deployment) {
     files.push({
       root: 'templates/deployment',
@@ -27,7 +29,7 @@ StartTemplateWithLambda(async (i, d) => {
     });
   }
 
-  const vars = { platform, service, desc, layer, module };
+  const vars = { platform, service, desc, layer, module, deployment, security };
   return {
     processors: [
       {
@@ -36,7 +38,10 @@ StartTemplateWithLambda(async (i, d) => {
         config: {
           vars,
           parser: {
-            varSyntax: [['let___', '___']],
+            varSyntax: [
+              ['let___', '___'],
+              ['<%', '%>'],
+            ],
           },
         },
       },
