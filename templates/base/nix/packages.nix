@@ -26,6 +26,7 @@ let
           treefmt
           gitlint
           shellcheck
+          skopeo
           ;
       }
     );

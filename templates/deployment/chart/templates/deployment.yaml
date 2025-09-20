@@ -13,15 +13,10 @@ spec:
       {{- include "let___platform___-let___service___.selectorLabels" . | nindent 6 }}
   template:
     metadata:
-      {{- with .Values.podAnnotations }}
       annotations:
-        {{- toYaml . | nindent 8 }}
-      {{- end }}
+        {{- include "let___platform___-let___service___.labels" . | nindent 8 }}
       labels:
         {{- include "let___platform___-let___service___.labels" . | nindent 8 }}
-        {{- with .Values.podLabels }}
-        {{- toYaml . | nindent 8 }}
-        {{- end }}
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:

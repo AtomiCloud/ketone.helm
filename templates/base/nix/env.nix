@@ -13,6 +13,7 @@ with packages;
 
   main = [
     infisical
+    skopeo
   ];
 
   lint = [
