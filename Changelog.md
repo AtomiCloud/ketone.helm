@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.2...v1.2.3) (2025-09-20)
+
+
+### 🐛 Bug Fixes 🐛
+
+* correctly add deployment scaffold ([e038c4f](https://github.com/AtomiCloud/ketone.helm/commit/e038c4f67c5d3cc51c19589f4eee21d8fbe6f71d))
+
 ## [1.2.2](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.1...v1.2.2) (2025-09-20)
 
 
