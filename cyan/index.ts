@@ -4,6 +4,8 @@ StartTemplateWithLambda(async (i, d) => {
   const desc = await i.text('Description', 'desc', 'Description of the helm chart');
   const platform = await i.text('Platform', 'platform', 'LPSM Service Tree Platform');
   const service = await i.text('Service', 'service', 'LPSM Service Tree Service');
+  const layer = await i.text('Layer', 'layer', 'LPSM Service Tree Layer');
+  const module = await i.text('Module', 'module', 'LPSM Service Tree Module');
 
   const files = [
     {
@@ -25,7 +27,7 @@ StartTemplateWithLambda(async (i, d) => {
     });
   }
 
-  const vars = { platform, service, desc };
+  const vars = { platform, service, desc, layer, module };
   return {
     processors: [
       {
