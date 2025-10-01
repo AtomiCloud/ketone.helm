@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.5...v1.2.6) (2025-10-01)
+
+
+### 🐛 Bug Fixes 🐛
+
+* point ci cd chart to chart dir ([27e51c2](https://github.com/AtomiCloud/ketone.helm/commit/27e51c2a761dbc15bc7ae60d44c36183e0847a30))
+
 ## [1.2.5](https://github.com/AtomiCloud/ketone.helm/compare/v1.2.4...v1.2.5) (2025-09-20)
 
 
