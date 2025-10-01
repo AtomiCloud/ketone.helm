@@ -15,7 +15,7 @@ jobs:
     with:
       atomi_platform: let___platform___
       atomi_service: let___service___
-      chart_path: ./infra/root_chart
+      chart_path: ./chart
 
       version: ${{ github.ref_name }}
   #
